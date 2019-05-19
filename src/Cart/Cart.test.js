@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import Cart from "./Cart";
 
+
 describe("Cart component", () => {
     
     // smoke test
@@ -10,4 +11,5 @@ describe("Cart component", () => {
         ReactDOM.render(<Cart />, div);
         ReactDOM.unmountComponentAtNode(div);
     });
+
 });

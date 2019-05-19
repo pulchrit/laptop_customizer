@@ -26,4 +26,5 @@ class SpecsAndOptionsList extends React.Component {
     }
 }
 
+
 export default SpecsAndOptionsList;

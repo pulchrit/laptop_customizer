@@ -2,6 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import SpecsAndOptionsList from "./SpecsAndOptionsList";
 
+
+
+
 describe("SpecsAndOptionsList component", () => {
     
     // smoke test
@@ -10,4 +13,5 @@ describe("SpecsAndOptionsList component", () => {
         ReactDOM.render(<SpecsAndOptionsList />, div);
         ReactDOM.unmountComponentAtNode(div);
     });
+
 });

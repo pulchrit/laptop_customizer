@@ -43,13 +43,15 @@ class App extends Component {
     return (
       <div className="App">
         <Header />    
+        
         <main>  
+          
           <SpecsAndOptionsList 
             features={this.props.features}
             selectedState={this.state.selected}
             handleUpdateFeatures={(feature, newValue) => this.updateFeature(feature, newValue)}
           />
-{/* Don't need to pass this to card???? handleUpdateFeatures={(feature, newValue) => this.updateFeature(feature, newValue)}*/}
+         
           <Cart selectedState={this.state.selected} />
         </main>
       </div>

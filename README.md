@@ -19,7 +19,4 @@ Updated app to decompose components into modular, encapsulated units that perfor
 ### State and Interactivity
 State lives in App.js and is passed to SpecsandOptionsList and Cart and their children through a callback prop.
 
-### Tests
-Each component has a small test suite including a smoke test to ensure proper rendering and a few snapshot tests 
-to ensure the UI renders as expected when changes are made to the code.
 
