@@ -3,6 +3,8 @@ _Starter project for React course_
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+____
+
 Updated app to decompose components into modular, encapsulated units that perform a single function. 
 
 ### Full Components List (also illustrates component hierarchy)
@@ -15,7 +17,7 @@ Updated app to decompose components into modular, encapsulated units that perfor
         - Total
 
 ### State and Interactivity
-State live in App.js and is passed to SpecsandOptionsList and Cart and their children through a callback prop.
+State lives in App.js and is passed to SpecsandOptionsList and Cart and their children through a callback prop.
 
 ### Tests
 Each component has a small test suite including a smoke test to ensure proper rendering and a few snapshot tests 
