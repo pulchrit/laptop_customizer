@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
 import './App.css';
 import Header from "./Header/Header";
-import SpecsAndOptionsList from "./SpecsAndOptionsList";
+import SpecsAndOptionsList from "./SpecsAndOptionsList/SpecsAndOptionsList";
 import Cart from "./Cart/Cart";
 
 class App extends Component {
+  
   constructor(props){
     super(props);
     this.state = {
@@ -39,21 +40,17 @@ class App extends Component {
 
   render() {
 
-        
-
-
-         
-
     return (
       <div className="App">
-        
-        <Header />
-            
-        <main>
-          
-          <SpecsAndOptionsList />
-          <Cart />
-
+        <Header />    
+        <main>  
+          <SpecsAndOptionsList 
+            features={this.props.features}
+            selectedState={this.state.selected}
+            handleUpdateFeatures={(feature, newValue) => this.updateFeature(feature, newValue)}
+          />
+{/* Don't need to pass this to card???? handleUpdateFeatures={(feature, newValue) => this.updateFeature(feature, newValue)}*/}
+          <Cart selectedState={this.state.selected} />
         </main>
       </div>
     );

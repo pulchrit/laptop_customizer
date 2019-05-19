@@ -5,7 +5,7 @@ class Header extends React.Component {
 
     render() {
         return (
-            <header>
+            <header className="header-style">
                 <h1>ELF Computing</h1>
                 <h3>Laptops</h3>
                 <h5>Customize your laptop</h5>  

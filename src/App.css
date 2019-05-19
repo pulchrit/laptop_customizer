@@ -2,16 +2,14 @@
   height: 100%;
 }
 
-header {
+.header-style {
   background-color: #DDDDDD;
   padding: 20px;
-  height: 25%;
 }
 
 main {
   display: flex;
   flex-direction: row;
-  height: 75%;
   padding: 15px;
 }
 
