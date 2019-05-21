@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
-import Header from "./Header/Header";
-import SpecsAndOptionsList from "./SpecsAndOptionsList/SpecsAndOptionsList";
-import Cart from "./Cart/Cart";
+import Header from "./components/Header/Header";
+import SpecsAndOptionsList from "./components/SpecsAndOptionsList/SpecsAndOptionsList";
+import Cart from "./components/Cart/Cart";
 
 class App extends Component {
   
@@ -29,6 +29,15 @@ class App extends Component {
       }
     }
   }
+
+static defaultProps = {
+    features: {
+      Processor: [],
+      "Operating System": [],
+      "Video Card": [],
+      Display: []
+    }
+};
 
   updateFeature(feature, newValue) {
     const selected = Object.assign({}, this.state.selected);

@@ -1,5 +1,5 @@
 import React from 'react';
-import "../App.css";
+import "../../App.css";
 import SpecItem from "../SpecItem/SpecItem";
 
 class SpecsAndOptionsList extends React.Component {
@@ -25,6 +25,8 @@ class SpecsAndOptionsList extends React.Component {
         );
     }
 }
+
+
 
 
 export default SpecsAndOptionsList;

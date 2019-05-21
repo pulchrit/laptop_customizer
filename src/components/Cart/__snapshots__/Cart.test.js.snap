@@ -1,0 +1,129 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Cart component renders cart with selected items 1`] = `
+<section
+  className="main__summary"
+>
+  <h3>
+    NEW GREENLEAF 2018
+  </h3>
+  <CartItem
+    key="Processor"
+    selectedFeatureName="Processor"
+    selectedState={
+      Object {
+        "Display": Object {
+          "cost": 1500,
+          "name": "15.6\\" UHD (3840 x 2160) 60Hz Bright Lights and Knobs",
+        },
+        "Operating System": Object {
+          "cost": 200,
+          "name": "Ubuntu Linux 16.04",
+        },
+        "Processor": Object {
+          "cost": 700,
+          "name": "17th Generation Intel Core HB (7 Core with donut spare)",
+        },
+        "Video Card": Object {
+          "cost": 1150.98,
+          "name": "Toyota Corolla 1.5v",
+        },
+      }
+    }
+  />
+  <CartItem
+    key="Operating System"
+    selectedFeatureName="Operating System"
+    selectedState={
+      Object {
+        "Display": Object {
+          "cost": 1500,
+          "name": "15.6\\" UHD (3840 x 2160) 60Hz Bright Lights and Knobs",
+        },
+        "Operating System": Object {
+          "cost": 200,
+          "name": "Ubuntu Linux 16.04",
+        },
+        "Processor": Object {
+          "cost": 700,
+          "name": "17th Generation Intel Core HB (7 Core with donut spare)",
+        },
+        "Video Card": Object {
+          "cost": 1150.98,
+          "name": "Toyota Corolla 1.5v",
+        },
+      }
+    }
+  />
+  <CartItem
+    key="Video Card"
+    selectedFeatureName="Video Card"
+    selectedState={
+      Object {
+        "Display": Object {
+          "cost": 1500,
+          "name": "15.6\\" UHD (3840 x 2160) 60Hz Bright Lights and Knobs",
+        },
+        "Operating System": Object {
+          "cost": 200,
+          "name": "Ubuntu Linux 16.04",
+        },
+        "Processor": Object {
+          "cost": 700,
+          "name": "17th Generation Intel Core HB (7 Core with donut spare)",
+        },
+        "Video Card": Object {
+          "cost": 1150.98,
+          "name": "Toyota Corolla 1.5v",
+        },
+      }
+    }
+  />
+  <CartItem
+    key="Display"
+    selectedFeatureName="Display"
+    selectedState={
+      Object {
+        "Display": Object {
+          "cost": 1500,
+          "name": "15.6\\" UHD (3840 x 2160) 60Hz Bright Lights and Knobs",
+        },
+        "Operating System": Object {
+          "cost": 200,
+          "name": "Ubuntu Linux 16.04",
+        },
+        "Processor": Object {
+          "cost": 700,
+          "name": "17th Generation Intel Core HB (7 Core with donut spare)",
+        },
+        "Video Card": Object {
+          "cost": 1150.98,
+          "name": "Toyota Corolla 1.5v",
+        },
+      }
+    }
+  />
+  <Total
+    selectedState={
+      Object {
+        "Display": Object {
+          "cost": 1500,
+          "name": "15.6\\" UHD (3840 x 2160) 60Hz Bright Lights and Knobs",
+        },
+        "Operating System": Object {
+          "cost": 200,
+          "name": "Ubuntu Linux 16.04",
+        },
+        "Processor": Object {
+          "cost": 700,
+          "name": "17th Generation Intel Core HB (7 Core with donut spare)",
+        },
+        "Video Card": Object {
+          "cost": 1150.98,
+          "name": "Toyota Corolla 1.5v",
+        },
+      }
+    }
+  />
+</section>
+`;
