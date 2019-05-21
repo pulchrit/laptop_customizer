@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CartItem component renders Display cart item 1`] = `
+<div
+  className="summary__option"
+  key="Display"
+>
+  <div
+    className="summary__option__label"
+  >
+    Display
+  </div>
+  <div
+    className="summary__option__value"
+  >
+    15.6" UHD (3840 x 2160) 60Hz Bright Lights and Knobs
+  </div>
+  <div
+    className="summary__option__cost"
+  >
+    $1,500.00
+  </div>
+</div>
+`;

@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import CartItem from "./CartItem";
+import { shallow } from 'enzyme';
+import toJson from 'enzyme-to-json';
 
 describe("CartItem component", () => {
     
@@ -23,6 +25,8 @@ describe("CartItem component", () => {
         }
     };
 
+    const selectedFeatureName = "Display";
+
     // smoke test
     it('renders without crashing', () => {
         const div = document.createElement('div');
@@ -31,14 +35,18 @@ describe("CartItem component", () => {
     });
 
     // snapshot test
-    it('renders cart with this selected item', () => {
-        const wrapper = shallow(<CartItem selectedState={selected} />);
+    it('renders Display cart item', () => {
+        const wrapper = shallow(<CartItem 
+            key={selectedFeatureName}
+            selectedFeatureName={selectedFeatureName}
+            selectedState={selected}
+        />);
         expect(toJson(wrapper)).toMatchSnapshot();
     });
 });
 
 
-{/* Add a const for key and selectedFeatureName above? 
+{/* This is how CartItem is called:
     <CartItem 
                     key={key}
                     selectedFeatureName={key}
